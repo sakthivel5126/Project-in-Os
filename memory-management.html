@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Storage Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Cloud Storage Allocation System</h2>
+
+<div class="container">
+
+    <label>Enter Storage Blocks (comma separated):</label>
+    <input type="text" id="blocks" placeholder="100, 500, 200, 300">
+
+    <label>Enter Requests (comma separated):</label>
+    <input type="text" id="requests" placeholder="120, 50, 300">
+
+    <label>Select Algorithm:</label>
+    <select id="algo">
+        <option value="first">First Fit</option>
+        <option value="best">Best Fit</option>
+        <option value="worst">Worst Fit</option>
+    </select>
+
+    <button onclick="allocate()">Allocate</button>
+
+    <h3>Result:</h3>
+    <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
