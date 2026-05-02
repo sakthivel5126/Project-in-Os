@@ -5,7 +5,7 @@ About:
     Design a system to allocate memory blocks to incoming requests in an efficient manner while minimizing fragmentation and maximizing utilization.
 
 Solution:
-  we had maded a simple web app for demonstration of memory alllocation of algorithm
+  we had maded a simple web app for demonstration of memory alllocation  algorithm
 
 
 
